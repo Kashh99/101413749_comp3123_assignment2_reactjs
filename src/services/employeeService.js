@@ -1,5 +1,6 @@
 import api from '../utils/api';
 
+
 export const employeeService = {
   getAllEmployees: async () => {
     try {
@@ -51,3 +52,6 @@ export const employeeService = {
     }
   }
 };
+
+
+export const getEmployees = employeeService.getAllEmployees;

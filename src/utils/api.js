@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://comp3123-gamma.vercel.app/api/v1/emp', // Your backend base URL
+  baseURL: 'http://comp3123-gamma.vercel.app/api/v1/emp', // Your backend base URL
 });
 
 api.interceptors.request.use(
